@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	overflow-y: hidden;
+	}
+	
+
+
+#loader {
+    width: 1920px;
+    height: 1109px;
+    display: none;
+    position: fixed;
+    _position: absolute; /* IE6対策 */
+    top: 50%;
+    left: 50%;
+    margin-top: -554px; /* heightの半分のマイナス値 */
+    margin-left: -960px; /* widthの半分のマイナス値 */
+    z-index: 100;
+}
+
+#tytlesan{
+	width:154px;
+	height:92px;
+	position:absolute;
+	margin-top:30px;
+	margin-left:103px;}
+ 
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}	
+	
+
+
+#contents {
+		padding: 0px;
+		width:24960px;
+		overflow:hidden;}
+		
+		
+		
+	#header{
+		height:165px;
+		width:1920px;
+		position:fixed;
+		}
+		
+	
+	.section {
+		width: 1920px;
+		padding: 0px;
+		height: 1109px;
+		float: left;
+		margin-right: 0px;
+		
+		}
+	
+	#ugoku{
+		width:230px;
+		height:330px;
+		float:left;
+		margin-left:200px;
+	    margin-top:762px;
+		position:fixed;
+		z-index:2;
+		}
+	
+	.tytle{
+		width:842px;
+		height:503px;
+		position:absolute;
+		margin-left:552px;
+		margin-top:275px;
+		background-image:url(../image/tytle1.gif);
+	}	
+	
+	
+	.scroll{
+		width:536px;
+		height:108px;
+		margin-top:830px;
+		margin-left:680px;
+		position:absolute;
+		z-index:1;
+		
+}
+		
+		
+  .neko{
+	  width:131px;
+	  height:95px;
+	  position:absolute;
+	  margin-top:757px;
+	  margin-left:1537px;
+	  background-image:url(../image/nekochan.gif);
+	 }
+	 
+  .inu{
+	  height:104px;
+	  width:106px;
+	  position:absolute;
+	  margin-left:1442px;
+	  margin-top:777px;
+	  background-image:url(../image/inu.gif)}
+	  
+  .nezumi{
+	  height:147px;
+	  width:64px;
+	  position:absolute;
+	  margin-left:1080px;
+	  margin-top:933px;
+	  background-image:url(../image/nezumi.gif);}	
+	  
+  .suzume{
+	  height:53px;
+	  width:73px;
+	  position:absolute;
+	  margin-left:467px;
+	  margin-top:883px;
+	  background-image:url(../image/suzume.gif);}	
+	  
+  .tori{
+	  width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:1535px;
+	  margin-top:735px;
+	  background-image:url(../image/tori.gif);}
+	  
+  .bunsyou1{
+	  width:1077px;
+	  height:510px;
+	  position:absolute;
+	  margin-left:450px;
+	  margin-top:279px;
+	  background-image:url(../image/bunsyou1.gif);}	  	      	 
+  
+  .bunsyou2{
+	  width:1077px;
+	  height:435px;
+	  position:absolute;
+	  margin-left:737px;
+	  margin-top:380px;
+	  background-image:url(../image/bunsyou2.gif);}
+	  
+  .bunsyou3{
+	  width:1077px;
+	  height:615px;
+	  position:absolute;
+	  margin-left:373px;
+	  margin-top:279px;
+	  background-image:url(../image/bunsyou3.gif);}
+		
+  .bunsyou4{
+	  width:1077px;
+	  height:604px;
+	  position:absolute;
+	  margin-left:343px;
+	  margin-top:279px;
+	  background-image:url(../image/bunsyou4.gif);}
+	  
+  .bunsyou5{
+	  width:1077px;
+	  height:410px;
+	  position:absolute;
+	  margin-left:498px;
+	  margin-top:325px;
+	  background-image:url(../image/bunsyou5.gif);}
+	   
+  #link{
+	  height:131px;
+	  width:227px;
+	  position:absolute;
+	  margin-top:0px;
+	  margin-left:330px;
+	  }
+	  
+  .link2{
+	  height:142px;
+	  width:267px;
+	  position:absolute;
+	  margin-top:0px;
+	  margin-left:730px;
+	  }	  
+	  
+  .link3{
+	 width:261px;
+	 height:141px;
+	 margin-top:0px;
+	 margin-left:1154px;
+	 position:absolute;}	  
+   	  		
+	  
+  .link4{
+	  width:268px;
+	  height:141px;
+	  margin-top:0px;
+	  margin-left:1580px;
+	  position:absolute;}
+
+/*これはくま*/	  
+ .animal{
+	 height:480px;
+	 width:600px;
+	 margin-top:530px;
+	 margin-left:430px;
+	 position:absolute;
+	}
+	 
+ .animal2{
+	 height:480px;
+	 width:600px;
+	 margin-top:500px;
+	 margin-left:500px;
+	 position:absolute;
+}
+	 
+/*ここからきつね*/	 
+.animal3{
+	 height:250px;
+	 width:108px;
+	 margin-top:710px;
+	 margin-left:890px;
+	 position:absolute;
+	}
+	 
+.animal4{
+	 height:300px;
+	 width:450px;
+	 margin-top:670px;
+	 margin-left:500px;
+	 position:absolute;
+	}
+	 
+	 
+/*ここからうさぎ*/	 
+.animal5{
+	 height:250px;
+	 width:108px;
+	 margin-top:350px;
+	 margin-left:1750px;
+	 position:absolute;
+	 }	 	  
+	 
+.animal6{
+	 height:250px;
+	 width:364px;
+	 margin-top:730px;
+	
+	 margin-left:1200px;
+	 position:absolute;
+	 }
+	 
+  .torikuma{
+	  width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:1220px;
+	  margin-top:550px;
+	  background-image:url(../image/torisiro.gif);}
+	  
+   .torikuma2{
+	  width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:1285px;
+	  margin-top:575px;
+	  background-image:url(../image/torisiro.gif);}
+	  
+    .torikitune{
+	  width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:1320px;
+	  margin-top:525px;
+	  background-image:url(../image/torisiro.gif);}  
+	  
+	  
+	  .torikitune2{
+	  width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:1240px;
+	  margin-top:575px;
+	  background-image:url(../image/torisiro.gif);}  
+	  
+	  .toriusa{
+	  width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:1040px;
+	  margin-top:500px;
+	  background-image:url(../image/torisiro2.gif);}  
+	  
+	  .toriusa2{
+	  width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:580px;
+	  margin-top:563px;
+	  background-image:url(../image/torisiro2.gif);}  
+	  	  
+	  
+ .ehon1{
+	 width:460px;
+	 height:217px;
+	 position:absolute;
+	 margin-left:1240px;
+	 margin-top:330px;
+	 background-image:url(../image/ehon1.gif);}	
+	 
+	.ehon2{
+	 width:460px;
+	 height:217px;
+	 position:absolute;
+	 margin-left:1321px;
+	 margin-top:343px;
+	 background-image:url(../image/ehon2.gif);}	 
+	 
+	 .ehon3{
+	 width:460px;
+	 height:217px;
+	 position:absolute;
+	 margin-left:1354px;
+	 margin-top:288px;
+	 background-image:url(../image/ehon3.gif);}	 
+	 
+	 .ehon4{
+	 width:460px;
+	 height:217px;
+	 position:absolute;
+	 margin-left:1288px;
+	 margin-top:332px;
+	 background-image:url(../image/ehon4.gif);}	 
+	 
+	 .ehon5{
+	 width:460px;
+	 height:217px;
+	 position:absolute;
+	 margin-left:1111px;
+	 margin-top:269px;
+	 background-image:url(../image/ehon5.gif);}	 
+	 
+	 .ehon6{
+	 width:460px;
+	 height:217px;
+	 position:absolute;
+	 margin-left:654px;
+	 margin-top:323px;
+	 background-image:url(../image/ehon6.gif);}	    	 	 
+		
+		
+.saigobunsyou{
+	width:967px;
+	height:654px;
+	margin-left:510px;
+	margin-top:400px;
+	position:absolute;
+	background-image:url(../image/keiziban.gif);}		
+		
+	
