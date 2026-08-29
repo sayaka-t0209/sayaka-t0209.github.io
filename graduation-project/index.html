@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="shortcut icon" href="gif/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="honseisaku css/home.css">
+<script src="honseisaku js/jquery.min.js"></script>
+<script src="honseisaku js/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
+<script src="honseisaku js/exscrollevent.js"></script>
+<title>PO!!!</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+
+<script type="text/javascript">
+$('head').append(
+    '<style type="text/css">#contents { display: none; } #fade, #loader { display: block; }</style>'
+);
+ 
+jQuery.event.add(window,"load",function() { // 全ての読み込み完了後に呼ばれる関数
+    var pageH = $("#contents").height();
+ 
+    $("#fade").css("height", pageH).delay(900).fadeOut(800);
+    $("#loader").delay(600).fadeOut(300);
+    $("#contents").css("display", "block");
+});
+
+</script>
+
+
+<script type="text/javascript">
+	$(function() {
+		//コンテンツの横サイズ
+		var cont = $('#contents');
+		var contW = $('.section').outerWidth(true) * $('div',cont ).length;
+	
+		//スクロールスピード
+		var speed = 30;
+		//マウスホイールで横移動
+		$('html').mousewheel(function(event, mov) {
+			//ie firefox
+			$(this).scrollLeft($(this).scrollLeft() - mov * speed);
+			//webkit
+			$('body').scrollLeft($('body').scrollLeft() - mov * speed);
+			return false;	//縦スクロール不可
+	    });
+	});
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+<body onLoad="MM_preloadImages('image/homebotan.gif','image/homebotan1.gif','image/asobibotan1.gif','image/zentaibotan1.gif','image/kyarabotan.gif','gif/kakureoni/kitunechann.gif','gif/kakureoni/kitune2.gif','gif/king/kumasan1.gif','gif/american/kuma2.gif','gif/mahouoni/usagi2.gif','gif/mahouoni/usagi1.gif')" onMouseDown="return false;" onSelectStart="return false"> 
+
+<div id="loader"><img src="image/ro-do2.gif" width="1921" height="1109" s ></div>
+<div id="fade"></div>
+ 
+<div id="contents">
+       <div id="ugoku"><img src="image/aruku.gif" height="330" width="230" ></div>
+      
+       <div id="header">
+       <div id="tytlesan"><a href="index.html#s01"><img src="image/tytle2.gif" width="154" height="92"></a></div>
+         <div id="link">
+         <a href="index.html#s01" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','image/homebotan1.gif',1)">
+         <img src="image/homebotan.gif" name="Image28" width="227" height="131" border="0"></a></div>
+        
+        <div class="link2">
+        <a href="index.html#s06" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','image/asobibotan1.gif',1)"><img src="image/asobibotan.gif" name="Image30" width="267" height="142" border="0"></a></div>
+        
+        
+         <div class="link3"><a href="lightbox2-master/kyarasyoukai.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','image/kyarabotan.gif',1)"><img src="image/kyarabotan1.gif" name="Image19" width="261" height="141" border="0"></a></div>
+        
+        
+        
+        <div class="link4"><a href="https://tanisaya-artwork.tumblr.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','image/zentaibotan1.gif',1)"><img src="image/zentaibotan.gif" name="Image31" width="268" height="141" border="0"></a></div>
+        
+       
+        
+  <img src="image/header.gif"></div>
+		
+        <div id="s01" class="section">   
+           <div class="tytle"></div>
+       
+        <div class="scroll"><img src="image/scroll.gif" width="536" height="108"></div>
+		<img src="image/index1.jpg" width="1921" height="1109"></div>
+		
+        <div id="s02" class="section">
+          <div class="neko"></div>
+          <div class="bunsyou1"></div>
+        <img src="image/index2.jpg"></div>
+		
+        <div id="s03" class="section">
+          <div class="inu"></div>
+          <div class="bunsyou2"></div>
+        <img src="image/index3.jpg" width="1921" height="1109"></div>
+		
+        <div id="s04" class="section">
+           <div class="nezumi"></div>
+           <div class="bunsyou3"></div>
+          <img src="image/index4.jpg"></div>
+        
+		<div id="s05" class="section">
+           <div class="suzume"></div>
+           <div class="bunsyou4"></div>
+          <img src="image/index5.jpg"></div>
+        
+     
+      
+    
+      
+      <div id="s06" class="section">
+         <div class="tori"></div>
+         <div class="bunsyou5"></div>
+        <img src="image/mori1.jpg"></div> 
+      
+      <div id="s07" class="section">
+      <div class="animal"><a href="pop.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','gif/american/kuma2.gif',1)"><img src="gif/american/kuma.gif" name="Image34"  height="480" width="600"></a></div><div class="torikuma"></div><div class="ehon1"></div><img src="image/mori2.jpg"></div> 
+      
+      <div id="s08" class="section"><div class="animal2"><a href="pop2.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','gif/king/kumasann2.gif',1)"><img src="gif/king/kumasann.gif" name="Image33" width="600" height="480" border="0"></a></div><div class="torikuma2"></div><div class="ehon2"></div><img src="image/mori3.jpg"></div> 
+  
+     <div id="s09" class="section"><div class="animal3"><a href="pop3.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','gif/kakureoni/kitune1.gif',1)"><img src="gif/kakureoni/kitunechann.gif" name="Image29" width="108" height="250" border="0"></a></div><div class="torikitune"></div><div class="ehon3"></div><img src="image/mori4.jpg" ></div>
+      
+      <div id="s10" class="section"><div class="animal4"><a href="pop4.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','gif/kakureoni/kitune3.gif',1)"><img src="gif/kakureoni/kitunechann3.gif" name="Image32"  border="0"></a></div><div class="torikitune2"></div><div class="ehon4"></div><img src="image/mori5.jpg"></div> 
+      
+      <div id="s11" class="section"><div class="animal5"><a href="pop6.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','gif/mahouoni/usagi2.gif',1)"><img src="gif/mahouoni/usachan3.gif" name="Image35" width="108" height="250" border="0"></a></div><div class="toriusa"></div><div class="ehon5"></div><img src="image/mori6.jpg"></div> 
+      
+      <div id="s12" class="section"><div class="animal6"><a href="pop5.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','gif/mahouoni/usagi1.gif',1)"><img src="gif/mahouoni/usachan.gif" name="Image36" width="364" height="250" border="0"></a></div><div class="toriusa2"></div><div class="ehon6"></div><img src="image/mori7.jpg" border="0"></div>
+      
+      <div id="s13" class="section">
+      <div class="saigobunsyou"></div><img src="image/morilast.jpg"></div> 
+      
+        
+<!-- /#contents --></div>
+
+</body>
+</html>
