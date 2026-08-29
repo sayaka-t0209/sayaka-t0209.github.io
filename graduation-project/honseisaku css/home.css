@@ -177,12 +177,12 @@ body{
 	  margin-top:325px;
 	  background-image:url(../image/bunsyou5.gif);}
 	   
-  #link{
+ #link{
 	  height:131px;
 	  width:227px;
 	  position:absolute;
 	  margin-top:0px;
-	  margin-left:330px;
+	  margin-left:530px;
 	  }
 	  
   .link2{
@@ -190,15 +190,15 @@ body{
 	  width:267px;
 	  position:absolute;
 	  margin-top:0px;
-	  margin-left:830px;
+	  margin-left:930px;
 	  }	  
 	  
   .link3{
 	 width:261px;
 	 height:141px;
 	 margin-top:0px;
-	 margin-left:1354px;
-	 position:absolute;}	  
+	 margin-left:1254px;
+	 position:absolute;}  
    	  		
 	  
 
