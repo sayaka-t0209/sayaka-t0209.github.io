@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	overflow-y: hidden;
+	overflow-x:hidden;}
+	
+body{
+
+user-select:none;
+
+-webkit-user-select:none;
+
+-moz-user-select:none;
+
+-khtml-user-select:none;
+
+-webkit-user-drag:none;
+
+-khtml-user-drag:none;
+
+}
+	
+	
+#loader {
+    width: 1921px;
+    height: 1109px;
+    display: none;
+    position: fixed;
+    _position: absolute; /* IE6対策 */
+    top: 50%;
+    left: 50%;
+    margin-top: -554px; /* heightの半分のマイナス値 */
+    margin-left: -960px; /* widthの半分のマイナス値 */
+    z-index: 100;
+}
+ 
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}
+
+#contents{
+	width:1921px;
+	height:1109px;
+	overflow:hidden;
+	position:absolute;
+	}
+	
+#header{
+	width:1921px;
+	height:165px;
+	position:fixed;
+}
+
+
+
+	
+#tytlesan{
+	width:154px;
+	height:92px;
+	position:absolute;
+	margin-top:30px;
+	margin-left:103px;}	
+.section {
+		width: 1921px;
+		padding: 0px;
+		height: 1109px;
+		float: left;
+		margin-right: 0px;
+	}	
+	
+ .tori{ 
+      width:73px;
+	  height:53px;
+	  position:absolute;
+	  margin-left:1370px;
+	  margin-top:222px;
+	  background-image:url(../image/tori.gif);}	
+	  
+.bunsyou{
+	width:963px;
+	height:345px;
+	margin-left:468px;
+	margin-top:164px;
+	position:absolute;
+	background-image:url(../image/kyara-bun.gif);
+	}
+
+.row{
+	width:1800px;
+	height:500px;
+	margin-left:10px;
+	margin-top:565px;
+	position:absolute;
+}
+
+.hako{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:135px;
+	}
+	
+.hako2{
+	width:300px;
+	height:300px;
+	float:left;
+	margin-left:135px;
+	margin-top:150px;
+	}	
+	
+ #link{
+	  height:131px;
+	  width:227px;
+	  position:absolute;
+	  margin-top:0px;
+	  margin-left:730px;
+	  }
+	  
+  .link2{
+	  height:142px;
+	  width:267px;
+	  position:absolute;
+	  margin-top:0px;
+	  margin-left:1130px;
+	  }	  
+	  
+  .link3{
+	 width:261px;
+	 height:141px;
+	 margin-top:0px;
+	 margin-left:1554px;
+	 position:absolute;}  
+	
+	
+	
+/*よくわかんないけどここからサークルホバーエフェクト*/
+.ih-item {
+  position: relative;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item,
+.ih-item * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ih-item a {
+  color: #333;
+}
+.ih-item a:hover {
+  text-decoration: none;
+}
+.ih-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.ih-item.circle {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left:25px;
+  margin-top:25px;
+}
+.ih-item.circle .img {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.ih-item.circle .img:before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.circle .img img {
+  border-radius: 50%;
+}
+.ih-item.circle .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ih-item.square {
+  position: relative;
+  width: 316px;
+  height: 216px;
+  border: 8px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ih-item.circle.effect16 .img {
+  z-index: 11;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.circle.effect16.colored .info {
+  background: #1a4a72;
+}
+.ih-item.circle.effect16 .info {
+  background: #333333;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.circle.effect16 .info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 26px;
+  margin: 0 30px;
+  padding: 55px 0 0 0;
+  height: 110px;
+  text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.ih-item.circle.effect16 .info p {
+  color: #bbb;
+  padding: 10px 5px;
+  font-style: bold;
+  margin: 0 30px;
+  font-size: 18px;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.ih-item.circle.effect16.left_to_right .img {
+  -webkit-transform-origin: 95% 40%;
+  -moz-transform-origin: 95% 40%;
+  -ms-transform-origin: 95% 40%;
+  -o-transform-origin: 95% 40%;
+  transform-origin: 95% 40%;
+}
+.ih-item.circle.effect16.left_to_right .img:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 50%;
+  top: 40%;
+  left: 95%;
+  margin: -4px 0 0 -4px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+}
+.ih-item.circle.effect16.left_to_right a:hover .img {
+  -webkit-transform: rotate(-120deg);
+  -moz-transform: rotate(-120deg);
+  -ms-transform: rotate(-120deg);
+  -o-transform: rotate(-120deg);
+  transform: rotate(-120deg);
+}
+
+.ih-item.circle.effect16.right_to_left .img {
+  -webkit-transform-origin: 5% 40%;
+  -moz-transform-origin: 5% 40%;
+  -ms-transform-origin: 5% 40%;
+  -o-transform-origin: 5% 40%;
+  transform-origin: 5% 40%;
+}
+.ih-item.circle.effect16.right_to_left .img:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 50%;
+  top: 40%;
+  left: 5%;
+  margin: -4px 0 0 -4px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+}
+.ih-item.circle.effect16.right_to_left a:hover .img {
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+/*ここでサークルホバーエフェクト終わり*/
+			
