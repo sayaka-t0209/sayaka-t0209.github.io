@@ -53,12 +53,12 @@ body{
 	margin-top:30px;
 	margin-left:103px;}		
 		
-#link{
+ #link{
 	  height:131px;
 	  width:227px;
 	  position:absolute;
 	  margin-top:0px;
-	  margin-left:330px;
+	  margin-left:730px;
 	  }
 	  
   .link2{
@@ -66,15 +66,15 @@ body{
 	  width:267px;
 	  position:absolute;
 	  margin-top:0px;
-	  margin-left:730px;
+	  margin-left:1130px;
 	  }	  
 	  
   .link3{
 	 width:261px;
 	 height:141px;
 	 margin-top:0px;
-	 margin-left:1154px;
-	 position:absolute;}	  
+	 margin-left:1554px;
+	 position:absolute;}  
 	  
 	  
 
