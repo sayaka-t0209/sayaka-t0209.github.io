@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;}
+	
+	
+#loader {
+    width: 1920px;
+    height: 1109px;
+    display: none;
+    position: fixed;
+    _position: absolute; /* IE6対策 */
+    top: 50%;
+    left: 50%;
+    margin-top: -554px; /* heightの半分のマイナス値 */
+    margin-left: -960px; /* widthの半分のマイナス値 */
+    z-index: 100;
+}
+ 
+#fade {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}	
+
+#contents{
+	width:1920px;
+	height:1109px;
+	position:fixed;
+	background-image:url(../image/pokopen.jpg);}
+	
+	
+#header{
+		height:165px;
+		width:1920px;
+	
+		position:fixed;
+		}
+		
+	#tytlesan{
+	width:154px;
+	height:92px;
+	position:absolute;
+	margin-top:30px;
+	margin-left:103px;}	
+		
+ #link{
+	  height:131px;
+	  width:227px;
+	  position:absolute;
+	  margin-top:0px;
+	  margin-left:730px;
+	  }
+	  
+  .link2{
+	  height:142px;
+	  width:267px;
+	  position:absolute;
+	  margin-top:0px;
+	  margin-left:1130px;
+	  }	  
+	  
+  .link3{
+	 width:261px;
+	 height:141px;
+	 margin-top:0px;
+	 margin-left:1554px;
+	 position:absolute;}  
+	  
+
+ .suraido{
+	 width:1020px;
+	 height:580px;
+	 position:absolute;
+	 margin-left:696px;
+	 margin-top:312px;
+	 }
+	 
+ .yazirusi{
+	 width:169px;
+	 height:246px;
+	 margin-left:45px;
+	 margin-top:790px;
+	 }	 
+	 	  
+	  
+
+
+	  
+	  
+		
+			
